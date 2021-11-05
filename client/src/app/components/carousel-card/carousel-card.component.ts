@@ -17,11 +17,16 @@ export class CarouselCardComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.url = this.resource.url;
+    this.url;
     this.imageUrl = this.resource.imageURL;
     this.name = this.resource.name;
     this.id = this.resource.id;
     this.category = this.resource.category;
+    if (this.category == 'artist') {
+      this.url = "/" + 'artist' + "/" + this.resource["id"];
+    }
+    else if (this.category == 'album') {
+      this.url = "/" + 'album' + "/" + this.resource["id"];
+    }
   }
-
 }

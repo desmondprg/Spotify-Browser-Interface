@@ -60,9 +60,7 @@ export class SpotifyService {
         });
 
       }
-      
       return result;
-
   });
 }
 
