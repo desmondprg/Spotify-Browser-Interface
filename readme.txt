@@ -13,7 +13,7 @@
 
 
 2. How long, in hours, did it take you to complete this assignment?
-41 hours
+~50 hours
 
 
 3. What online resources did you consult when completing this assignment? (list specific URLs)
@@ -38,3 +38,5 @@ Partners: Maika Marin and Desmond Garrido
 N/A
 
 6. Is there anything special we need to know in order to run your code?
+
+N/A

@@ -39,7 +39,6 @@ export class SpotifyService {
     
     var encode = encodeURIComponent(resource);
     return this.sendRequestToExpress('/search/' + category + '/' + encode).then((data)=>{ 
-      
       if(category == 'artist') {
         var result = data['artists']['items'].map((artist) => {
           return new ArtistData(artist);
